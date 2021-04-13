@@ -1,0 +1,99 @@
+
+body{
+    background:url(Physical-World-Map-3360.jpg) no-repeat center center;
+    background-color: #1a2025;
+    font-family: 'Abel', sans-serif;
+}
+
+.app {
+    display: flow-root;
+    color: #000;
+    padding: 20px;
+    background-color:RGBA(225,225,225,1);
+    margin: 100px auto;
+    max-width: 650px;
+    border-radius: 15px;
+}
+.app h1 {
+    background-color: #5f9ea0;
+    color:#ffff;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0px 0 42px;
+}
+.app input, textarea {
+    color:#ffff;
+    padding: 11px;
+    background-color: #5f9ea0;
+    display: block;
+    margin: 5px 0 13px 9px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder { 
+    color:#ffff;
+    opacity: 0.5;
+  }
+  
+  :-ms-input-placeholder {
+    color:#ffff;
+    opacity: 0.5;
+  }
+::placeholder{
+    color:#ffff;
+    opacity: 0.5;
+}
+
+.app .entry-holder {
+    color: #09494b;
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+    width: 40%;
+}
+.app .entry-holder input {
+    float: right;
+    width: 83%;
+}
+.app  button {
+    padding:  15px 105%;
+    margin: 15px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #5f9ea0;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    border:2px solid#ffff;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+.app .data-holder {
+    color: #09494b;
+    font-size: 20px;
+    font-weight: bolder;
+    float: right;
+    width: 60%;
+    
+}
+.app .data-holder .viewer {
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+.app .viewer p{
+    display: inline;
+    color: #8b1506;
+    font-weight: bold;
+
+}
+.app .viewer div{
+  margin-bottom: 15px;
+}
+
+
+
+
